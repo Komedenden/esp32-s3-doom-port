@@ -1,0 +1,27 @@
+# --- ESP-IDF artifacts ---
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+
+# --- VS Code / IDE settings ---
+.vscode/
+.vscode/launch.json
+.vscode/settings.json
+.vscode/tasks.json
+.history/
+*.code-workspace
+
+# --- Temporary / Log files ---
+*.log
+*.tmp
+*.bak
+
+# --- Game Data ---
+# DOOM WADs should be provided by the user
+*.wad
+*.WAD
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
